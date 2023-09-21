@@ -1,27 +1,15 @@
+import React from 'react';
 import './App.css';
+import Button from './Button';
+
 
 function App() {
-
-  const Title = styled.h1`
-  font-size: 1.5em;
-  text-align: center;
-  color: #BF4F74;
-`;
-
-const Wrapper = styled.section`
-  padding: 4em;
-  background: papayawhip;
-`;
-
-return (
-  <div className="App">
-render(
-  <Wrapper>
-    <Title>
-      Hello World!
-    </Title>
-  </Wrapper>
-);
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Styled Components Example</h1>
+        <Button onClick={() => alert('Button clicked')}>Click Me</Button>
+      </header>
     </div>
   );
 }
