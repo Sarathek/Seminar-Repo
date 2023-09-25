@@ -18,6 +18,10 @@ function InputName() {
         value={name}
         onChange={handleNameChange}
       />
+      <h1>Headings</h1>
+      <p>ParaGraphs</p>
+      <h2>Others</h2>
+  
     </div>
   );
 }
